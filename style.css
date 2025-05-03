@@ -97,6 +97,7 @@ font-weight: 500;
     align-items: center;
     display: flex;
     flex-direction: row;
+    margin-bottom: 100px;
 }
 .img2{
     margin-left: 240px;
@@ -110,19 +111,316 @@ font-weight: 500;
 .container3{
    display: flex;
    flex-direction: column;
-   height: 1400px;
+   height: 1800px;
    width: 100%;
-   padding: 0%; 
+   padding: 0%;
+   align-items: center; 
 }
-.textoa{
-    margin-top: 100px;
-    color: black;
-    margin-left: 500px;
+.titulo {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    gap: 10px;
+    text-align: left;
+    padding-left: 40px; 
+  }
+  
+  
+  .textocarreras2 {
     font-size: 25px;
-    font-weight: 400;
-}
-.titulo{
+    font-weight: 500;
+  }
+  
+  .texto-carreras {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .texto-steam {
+    background-color: yellow;
+    color: black;
+    padding: 5px 15px;
+    border-radius: 12px;
+    display: inline-block;
+  }
+  .infov{
+     font-size: 18px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     height: 100px;
+     width: 800px;
+  }
+  .formularios{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 40px;
+    max-width: 900px;
+    margin: auto;
+  }
+  .formulario {
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 24px;
+    width: 400px;
+    font-family: 'Segoe UI', sans-serif;
+    color: #000;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .categoria {
+    margin-left: 10px;
+    color: #8A6BE7;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  .titulo {
+    margin: 0px;
+    font-size: 30px;
+    font-weight: bold;
+    align-items: start;
+  }
+  
+  .descripcion {
+    font-size: 18px;
+    margin: 8px 0 16px 0;
+  }
+  
+  .lista {
+    list-style: disc;
+    padding-left: 20px;
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  
+  .etiquetas {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .etiqueta {
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+  }
+  
+  .verde {
+    background-color: #e6f6eb;
+    color: #34a853;
+    border: 1px solid #34a853;
+  }
+  
+  .azul {
+    background-color: #e6f0fc;
+    color: #4285f4;
+    border: 1px solid #4285f4;
+  }
+  
+  .boton-ver {
+    background-color: #fffc00;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 100%;
+    cursor: pointer;
+    height: 50px;
+  }
+  .boton-ver:hover {
+    box-shadow: 0 0 40px 1px #fffb0079;
+    transition: 100ms;
+  }
+  .etiquetase{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 50px;
+  }
+  .container4{
+    background-color: black;
     display: flex;
     flex-direction: row;
-    padding: 0%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  .seccion {
+    max-width: 400px;
+    padding: 60px 20px;
+    background-color: #000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Segoe UI', sans-serif;
+    margin-left: 250px;
+  }
+  
+  .titulo2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0 0 0px 0;
+    text-align: left;
+  }
+  
+  .info2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .coso1 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .coso2 {
+    background-color: #fffc00;
+    color: #000;
+    padding: 4px 8px;
+    border-radius: 4px;
+    display: inline-block;
+  }
+  .boton2{
+    margin-top: 30px;
+    width: 320px;
+    height: 55px;
+    background-color: #000;
+    border: 1px solid #fffc00;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+  }
+  .boton2:hover{
+    color: #fffc00;
+    box-shadow: 0 0 20px 1px #fffb004f;
+    transition: 100ms;
+  }
+  .info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center ;   
+    margin-right: 250px;
+  }
+  .card {
+    height: 340px;
+    width: 240px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  
+  .card-title {
+    margin-top: 10px;
+    font-size: 32px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 20px;
+  }
+  
+  .card-badge {
+    background-color: #fffc00;
+    border-radius: 40px;
+    padding: 14px 20px;
+    font-weight: 700;
+    color: #000;
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.3;
+    margin: 10px;
+  }
+  
+  .divider {
+    width: 80%;
+    margin: 12px auto;
+    border: none;
+    border-top: 1px solid #aaa;
+  }
+  
+  .card-text {
+    font-size: 16px;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .card-footer {
+    width: 100%;
+    height: 10%;
+    background-color: #fffc00;
+    color: #000;
+    font-weight: 800;
+    font-size: 20px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    text-align: center;
+  }
+  .card2 {
+    height: 380px;
+    width: 240px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .container5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .text3{
+   margin-top: 80px;
+   display: flex;
+   flex-direction: column;
+   align-items: left;
+   justify-content: left;
+   margin-left: 300px;
+   margin-right: 300px;
 }
+  .titulo3{
+    margin-left: 155px;
+    width: 600px;
+  }
+  .titulo4{
+    font-weight: 0; 
+  }
+  .titulo5{
+    background-color: #fffc00;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  .info3{
+    font-size: 22px;
+    width: 800px;
+    margin-left: 130px;
+  }
