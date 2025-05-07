@@ -496,5 +496,358 @@ font-weight: 500;
     width: 100%;
     background-color: #000;
   }
-
+  .container6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    text-align: center;
+  }
+  .texto-videos{
+    color: #000;
+    font-size: 40px;
+  }
+    .STEAM-texto{
+    font-size: 40px;
+    display: inline;
+    background-color: yellow;
+    color: black;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+  }
   
+  .videos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .video {
+    width: 250px;
+    height: 500px;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    background-color: #eee;
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .video img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-size: cover;     
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  
+  .imagenes {
+    max-width: auto;
+    max-height: auto;
+    border: 3px solid yellow;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+  }
+  .container7 {
+    background-color: black;
+    color: white;
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1200px;
+    gap: 2rem;
+  }
+  
+  .texto {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .info4{
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .amarillo {
+    background-color: yellow;
+    color: black;
+    padding: 0 0.3rem;
+    font-weight: bold;
+  }
+  
+  .texto p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  .tarjetas {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    max-width: 500px;
+    flex: 1;
+  }
+  
+  .tarjeta {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    width: 250px;
+    height: 80px;
+    margin-top: 50px;
+  }
+  .tarjeta2 {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: 1rem;
+    width: 250px;
+    height: 100px;
+    margin-left: 20px;
+    margin-top: 70px;
+  }
+  
+  .icono {
+    background-color: yellow;
+    color: black;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .tarjeta-texto {
+    font-size: 20px;
+    line-height: 1.3;
+  }
+  .container8{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20%;
+    width: 100%;
+    font-family: wfont_bb6560_0eaefab833a4450caaff3240beaf833d, wf_0eaefab833a4450caaff3240b, orig_gilroybold;
+  }
+  .titulo6{
+    font-size: 40px;
+    margin-top: 60px;
+  }
+  .titulo7{
+    background-color: #fffc00;
+    color: #000;
+    padding: 5px;
+    margin-top: 10px ;
+    border-radius: 10px;
+  }
+  .info5{
+    font-size: 20px;
+    color: #333;
+  }
+  .videos2{
+   display: flex;
+   flex-direction: row;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: 100px;
+  }
+  .video{
+    border-color: #fffc00;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    margin: 20px;
+    height: auto;
+    width: auto;
+  }
+  .container9 {
+    width: 100%;
+    padding: 30px;
+    background-color: black;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #e6f0fc;
+    font-size: 30px;  
+}
+
+.subtitle {
+  margin-top: 50px;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: #e6f0fc;
+}
+.formulario2{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    margin: 30px;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.89);
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+.subtitulo1{
+  color: #e6e600;
+  text-align: left;
+}
+.input-field {
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+.input-field::placeholder {
+    color: white;
+    opacity: 0.7;
+}
+
+.select-field {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid yellow;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+}
+
+.submit-btn {
+    width: 10%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 35px rgba(255, 230, 0, 0.603);
+}
+
+.submit-btn:hover {
+    background-color: #e6e600;
+}
+.container10{
+  height: 5%;
+  width: 100%;
+}
+iframe{
+  width: 100%;
+  height: 100%;
+}
+.container11 {
+  width: 100%;
+  padding: 20px;
+  background-color: #000;
+  color:  #ffffff;
+}
+
+footer {
+  margin-left: 20%;
+  margin-right: 20%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  border-top: 2px solid #ffffff;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 15px;
+}
+
+.footer-section h3 {
+  font-size: 1.4em;
+  margin-bottom: 8px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.footer-logo {
+  flex: 1;
+  text-align: center;
+}
+
+.footer-logo img {
+  max-width: 120px;
+}
+
+.footer-social {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-social a img {
+  width: 35px;
+  height: 35px;
+}
+
+.footer-copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 0.9em;
+}
